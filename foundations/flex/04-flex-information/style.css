@@ -1,5 +1,10 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /*display: flex;
+  flex-flow: column;
+  align-items: center;*/ /*This is still correct i just used
+                          only flexbox for practice.*/
+  text-align: center;
 }
 
 img {
@@ -7,9 +12,17 @@ img {
   height: 100px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +36,16 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+
+.plant {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  max-width: 200px;
+}
+
+.text {
+  text-align: center;
 }
